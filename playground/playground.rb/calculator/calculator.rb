@@ -27,7 +27,6 @@ num_2 = gets.chomp.
 puts "Choose one operation \n 1- Addition \n 2- Subtraction \n 3- Multiplication \n 4- Division \n 5- Modulus"
 
 input gets.chomp
-
 case input
 when "1"
     puts "The first number added for by the second number is #{add(num_1, num_2)}"
