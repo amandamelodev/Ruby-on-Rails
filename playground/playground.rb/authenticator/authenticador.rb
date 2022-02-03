@@ -29,7 +29,7 @@ attempts = 1
 while attempts < 4 
         print "Username:  "
         username = gets.chomp
-        print "Password:  "
+        print "Password:  " 
         password = gets.chomp
        authentication =  auth_user (username, password, users)
        puts authentication
